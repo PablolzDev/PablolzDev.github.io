@@ -1,0 +1,13 @@
+.chart-container {
+    display: flex;
+    flex-direction: row; /* Arrange charts in a row */
+    justify-content: space-between; /* Distribute charts evenly */
+    align-items: center; /* Align charts vertically in the middle */
+  }
+  
+  .chart-container canvas {
+    width: 300px; /* Adjust chart width as needed */
+    height: 300px; /* Adjust chart height as needed */
+    margin: 10px; /* Add spacing between charts */
+  }
+  
